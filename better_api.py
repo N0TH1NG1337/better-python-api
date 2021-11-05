@@ -130,29 +130,22 @@ def table_sum(table_to_sum):
 #end
 
 def to_string(input_tostring):
-    #
-    if string_type(input_tostring) != "string":
-        return "invalid input"
-    else:
-        return str(input_tostring)
-    #end
+    
+    return str(input_tostring)
+    
 #end
 
 def to_int(input_toint):
-    if string_type(input_toint) != "int":
-        return "invalid input"
-    else:
-        return int(input_toint)
-    #end
+    
+    return int(input_toint)
+    
 #end
 
 def to_float(input_tofloat):
     #
-    if string_type(input_tofloat) != "float":
-        return "invalid input"
-    else:
-        return float(input_tofloat)
-    #end
+    
+    return float(input_tofloat)
+    
 #end
 
 def user_input(string_to_show, typemode):
