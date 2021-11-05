@@ -150,5 +150,5 @@ def to_float(input_tofloat):
 
 def user_input(string_to_show, typemode):
     #
-    typemode(input(string_to_show))
+    return typemode(input(string_to_show))
 #end
